@@ -1,17 +1,17 @@
 body {
   margin: 0;
   padding: 0;
-} 
+}
 
 .page {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: #001B00;
+  height: 100vh;
+
+  background-color: #001b00;
 
   font-family: "Sixtyfour", serif;
-  color: #33FF33; 
-
-  height: 100vh;
+  color: #33ff33;
 }
