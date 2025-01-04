@@ -71,7 +71,6 @@ const testimonials = [
   },
 ];
 
-
 const imageEl = document.querySelector(".testimonial__image");
 const testimonialTextEl = document.querySelector(".testimonial__text");
 const nameEl = document.querySelector(".testimonial__name");
@@ -81,13 +80,13 @@ let i = 0;
 
 updateTestimonial();
 
-function updateTestimonial () {
-  const {name, testimonial, photo} = testimonials[i];
-  
+function updateTestimonial() {
+  const { name, testimonial, photo } = testimonials[i];
+
   imageEl.src = photo;
   testimonialTextEl.innerText = testimonial;
   nameEl.innerText = name;
-  i++
+  i++;
   if (i >= testimonials.length) {
     i = 0;
   }
@@ -97,5 +96,4 @@ function updateTestimonial () {
   }, 2000);
 }
 
-testimonialEl.addEventListener('click', updateTestimonial);
-
+testimonialEl.addEventListener("click", updateTestimonial);
