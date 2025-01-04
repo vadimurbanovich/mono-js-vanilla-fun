@@ -42,7 +42,6 @@
   transition: 0.3s;
 
   &:hover {
-  background-color: #9b2226;
+    background-color: #9b2226;
   }
 }
-

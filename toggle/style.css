@@ -22,7 +22,7 @@
   width: 80px;
   height: 40px;
 
-  background-color: #bbb;
+  background-color: #fcbf49;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -41,7 +41,7 @@
 }
 
 .dark-mode:checked + .dark-mode__toggle {
-  background-color: salmon;
+  background-color: #0a9396;
 }
 
 .dark-mode:checked + .dark-mode__toggle .circle {
