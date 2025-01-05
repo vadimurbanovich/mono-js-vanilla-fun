@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
+.page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: 100vh;
+
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.button {
+  padding: 20px 40px;
+
+  font-size: 25px;
+  color: #000;
+  white-space: nowrap;
+
+  background-color: #fff;
+
+  border: #000 3px solid;
+
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.button:hover {
+  color: #fff;
+
+  background-color: #000;
+}
+
+.landing__title {
+  margin-top: 150px;
+
+  font-size: 100px;
+  color: #fff;
+  letter-spacing: 4px;
+
+  backdrop-filter: brightness(0.5);
+}
+
+.landing__split {
+  top: 0;
+
+  width: 50%;
+  height: 100%;
+}
+
+.landing__split.landing__split--left {
+  position: absolute;
+  left: 0;
+
+  background-color: #e3d5ca;
+  background-image: url("https://raw.githubusercontent.com/hdpngworld/HPW/main/uploads/65038654434d0-iPhone%2015%20Pro%20Natural%20titanium%20png.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.landing__split.landing__split--right {
+  position: absolute;
+  right: 0;
+
+  background-color: #a5a58d;
+  background-image: url("https://www.ourfriday.co.uk/image/cache/catalog/Samsung/samsung-galaxy-s24-amber-yellow-1-1-1200x1200.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.landing__split--right,
+.landing__split--left {
+  transition: width 0.5s ease-in-out;
+}
+
+.landing__split .button {
+  margin-top: 90px;
+}
+
+.active-left .landing__split--left {
+  width: 75%;
+}
+
+.active-left .landing__split--right {
+  width: 25%;
+}
+
+.active-right .landing__split--right {
+  width: 75%;
+}
+
+.active-right .landing__split--left {
+  width: 25%;
+}
