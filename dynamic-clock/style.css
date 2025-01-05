@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+
+  background-color: #43aa8b;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  
+  overflow: hidden;
+}
+
+.clock__title {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+
+.clock {
+  display: flex;
+}
+
+.clock__item {
+  position: relative;
+
+  margin: 5px;
+
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.clock span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 80px;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+
+  background-color: #f9c74f;
+}
+
+.clock .clock__name {
+  height: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #f3722c;
+}
+
+.clock .clock__type {
+  position: absolute;
+  bottom: 0;
+
+  width: 60px;
+  height: 30px;
+
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  background-color: #f94144;
+}
