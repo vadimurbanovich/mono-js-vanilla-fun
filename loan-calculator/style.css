@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  font-family: sans-serif;
+}
+
+.calculator__container {
+  padding: 30px;
+
+  color: #fff;
+
+  background-color: #02552b;
+
+  border-radius: 10px;
+}
+
+.calculator__title {
+  margin-bottom: 30px;
+}
+
+.calculator__text {
+  margin-bottom: 20px;
+}
+
+.calculator__input {
+  height: 30px;
+
+  width: 100%;
+
+  font-size: 20px;
+}
+
+.calculator__payment {
+  font-weight: 600;
+  font-size: 20px;
+}

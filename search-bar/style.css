@@ -52,7 +52,7 @@
   outline: none;
 
   transition: width 1s;
-  transition-delay: .4s;
+  transition-delay: 0.4s;
 }
 
 .search-bar__mic-icon {
@@ -76,4 +76,3 @@
 .active .search-bar__mic-icon {
   width: 0;
 }
-
