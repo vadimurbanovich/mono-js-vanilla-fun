@@ -4,17 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Age Calculator</title>
-    link
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="page">
     <div class="calculator__container">
       <h1 class="calculator__title">Age Calculator</h1>
       <div class="calculator__form">
-        <label for="birthday">Enter your date of birth</label>
-        <input type="date" id="birthday" name="birthday"/>
-        <p class="calculator__result">Your age is 21 years old</p>
+        <label for="birthday" class="calculator__form-label"
+          >Enter your date of birth</label
+        >
+        <input
+          type="date"
+          id="birthday"
+          name="birthday"
+          class="calculator__form-input"
+        />
+        <button class="calculator__form-button">Calculate age</button>
+        <p class="calculator__result"></p>
       </div>
     </div>
+
     <script src="main.js"></script>
   </body>
 </html>
